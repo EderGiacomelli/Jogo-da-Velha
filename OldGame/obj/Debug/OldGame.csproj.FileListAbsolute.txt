@@ -1,0 +1,10 @@
+C:\Users\sergi\source\repos\OldGame\OldGame\bin\Debug\OldGame.exe.config
+C:\Users\sergi\source\repos\OldGame\OldGame\bin\Debug\OldGame.exe
+C:\Users\sergi\source\repos\OldGame\OldGame\bin\Debug\OldGame.pdb
+C:\Users\sergi\source\repos\OldGame\OldGame\obj\Debug\OldGame.csproj.AssemblyReference.cache
+C:\Users\sergi\source\repos\OldGame\OldGame\obj\Debug\OldGame.Form1.resources
+C:\Users\sergi\source\repos\OldGame\OldGame\obj\Debug\OldGame.Properties.Resources.resources
+C:\Users\sergi\source\repos\OldGame\OldGame\obj\Debug\OldGame.csproj.GenerateResource.cache
+C:\Users\sergi\source\repos\OldGame\OldGame\obj\Debug\OldGame.csproj.CoreCompileInputs.cache
+C:\Users\sergi\source\repos\OldGame\OldGame\obj\Debug\OldGame.exe
+C:\Users\sergi\source\repos\OldGame\OldGame\obj\Debug\OldGame.pdb
