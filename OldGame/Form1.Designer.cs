@@ -41,10 +41,11 @@ namespace OldGame
             this.btn_recomecar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lb_ptO = new System.Windows.Forms.Label();
             this.lb_ptX = new System.Windows.Forms.Label();
+            this.lb_ptO = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btn_reiniciar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -145,7 +146,7 @@ namespace OldGame
             this.btn_recomecar.Name = "btn_recomecar";
             this.btn_recomecar.Size = new System.Drawing.Size(152, 28);
             this.btn_recomecar.TabIndex = 9;
-            this.btn_recomecar.Text = "Reiniciar";
+            this.btn_recomecar.Text = "Próxima Rodada";
             this.btn_recomecar.UseVisualStyleBackColor = true;
             this.btn_recomecar.Click += new System.EventHandler(this.btn_recomecar_Click);
             // 
@@ -172,23 +173,14 @@ namespace OldGame
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Placar";
             // 
-            // label2
+            // lb_ptX
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Jogador 1 (O) :";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(148, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Jogador 2 (X) :";
+            this.lb_ptX.AutoSize = true;
+            this.lb_ptX.Location = new System.Drawing.Point(226, 20);
+            this.lb_ptX.Name = "lb_ptX";
+            this.lb_ptX.Size = new System.Drawing.Size(13, 13);
+            this.lb_ptX.TabIndex = 3;
+            this.lb_ptX.Text = "0";
             // 
             // lb_ptO
             // 
@@ -199,20 +191,41 @@ namespace OldGame
             this.lb_ptO.TabIndex = 2;
             this.lb_ptO.Text = "0";
             // 
-            // lb_ptX
+            // label3
             // 
-            this.lb_ptX.AutoSize = true;
-            this.lb_ptX.Location = new System.Drawing.Point(226, 20);
-            this.lb_ptX.Name = "lb_ptX";
-            this.lb_ptX.Size = new System.Drawing.Size(13, 13);
-            this.lb_ptX.TabIndex = 3;
-            this.lb_ptX.Text = "0";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(148, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Jogador 2 (X) :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(7, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Jogador 1 (O) :";
+            // 
+            // btn_reiniciar
+            // 
+            this.btn_reiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reiniciar.Location = new System.Drawing.Point(74, 388);
+            this.btn_reiniciar.Name = "btn_reiniciar";
+            this.btn_reiniciar.Size = new System.Drawing.Size(152, 28);
+            this.btn_reiniciar.TabIndex = 12;
+            this.btn_reiniciar.Text = "Reiniciar";
+            this.btn_reiniciar.UseVisualStyleBackColor = true;
+            this.btn_reiniciar.Click += new System.EventHandler(this.btn_reiniciar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 381);
+            this.ClientSize = new System.Drawing.Size(288, 424);
+            this.Controls.Add(this.btn_reiniciar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_recomecar);
@@ -252,6 +265,7 @@ namespace OldGame
         private System.Windows.Forms.Label lb_ptO;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btn_reiniciar;
     }
 }
 
